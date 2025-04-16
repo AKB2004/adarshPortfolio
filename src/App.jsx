@@ -1,20 +1,31 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// import './App.css'
+import React from 'react'
+import HeroSection from './components/HeroSection'
+import Navbar from './components/Navbar'
+import About from './components/About'
+import ExperienceSection from './components/ExperienceSection'
+import ProjectsSection from './components/ProjectsSection'
+import ProjectsGrid from './components/ProjectsGrid'
+import Footer from './components/FooterSection'
+
+
+
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
-    <>
-    <div className='bg-black'>
-    <p className='text-blue-600'>all good</p>
-    <h1 className="text-3xl font-bold text-white underline ">
-      Hello world!
-    </h1>
+    <div className="text-white ">
+      <Navbar/>
+      <div className="pt-20">
+        <HeroSection />
+        <About/>
+        <ExperienceSection/>
+        <ProjectsSection/>
+        <ProjectsGrid/>
+        <Footer/>
+      </div>
     </div>
-    </>
   )
 }
 

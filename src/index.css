@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body {
+    background-color: #0a192f; 
+    /* background: #000; */
+    color: white;
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Segoe UI', sans-serif; */
+  }
+  
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  .blink-cursor {
+    animation: blink 1.5s ease-in-out infinite; /* Slow down the blink */
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: 'Sora', sans-serif;
+  }
+    
+  /* h1 {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .subtitle {
+    font-family: 'Nunito', sans-serif;
+  } */
