@@ -7,9 +7,9 @@ const HeroSection = () => {
     <div className="flex flex-col items-center justify-center min-h-screen px-4 py-20 text-center text-white">
       {/* Image / tree fractal */}
       <img
-        src="/your-fractal-image-path.png"
+        src="./src/img/logo.png"
         alt="fractal-tree"
-        className="w-32 h-32 mb-8"
+        className="w-56 h-56 mb-8 -ml-4"
       />
 
       {/* Main intro */}
@@ -27,14 +27,16 @@ const HeroSection = () => {
       </h1>
 
       {/* Subtitle */}
-      <h2 className="mb-6 text-xl text-gray-400 md:text-2xl">
-        I create stuff sometimes.
+      <h2 className="mb-6 text-xl text-gray-400 md:text-4xl">
+        A Polymath.
       </h2>
 
       {/* Paragraph */}
-      <p className="max-w-2xl mb-10 text-gray-400 text-md md:text-lg">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem commodi, cupiditate est facere accusamus a fuga quisquam tenetur, molestiae dolore doloremque veniam deleniti numquam unde beatae, pariatur qui quo. Perspiciatis!
-      </p>
+      <p className="max-w-3xl text-gray-400 text-md md:text-lg">
+        I am a Software Engineer from Bangalore, India. Experienced in developing </p>
+        <p className="max-w-3xl text-gray-400 text-md md:text-lg"> multi-model AI & Deep Learning apps and scalable backend servers.</p>  
+        <p className="max-w-2xl mb-10 text-gray-400 text-md md:text-lg">Computer Science Engineering '26, at Dayananda Sagar University.</p> 
+      
 
       {/* Say Hi button */}
       <a

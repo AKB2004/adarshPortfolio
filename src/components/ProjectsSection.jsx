@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const projectData = [
   {
-    title: "Tall Tales",
+    title: "SecuResidences",
     description:
       "A multi-player story-telling web game for 3-5 players. Uses sockets for real-time gameplay.",
     stack: "NODE.JS, REACT.JS, MONGODB",
@@ -13,7 +13,7 @@ const projectData = [
     demo: "#",
   },
   {
-    title: "Project Two",
+    title: "Moody AI",
     description: "Another awesome project with cool features.",
     stack: "REACT, NODE, EXPRESS",
     image: "./src/img/blue.jpeg",
@@ -21,7 +21,7 @@ const projectData = [
     demo: "#",
   },
   {
-    title: "Project Three",
+    title: "VaLiDiFy",
     description: "This project does something cool and useful.",
     stack: "NEXT.JS, FIREBASE",
     image: "./src/img/yellow.jpeg",
@@ -29,7 +29,7 @@ const projectData = [
     demo: "#",
   },
   {
-    title: "Project Four",
+    title: "Spectacles.ai",
     description: "Final project in the carousel lineup.",
     stack: "HTML, CSS, JS",
     image: "./src/img/green.jpeg",

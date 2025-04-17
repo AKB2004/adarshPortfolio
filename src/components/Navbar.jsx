@@ -21,18 +21,18 @@ const Navbar = () => {
 
       {/* Right side icons */}
       <div className="flex space-x-4 text-blue-200">
-        <a href="mailto:example@gmail.com" className="hover:text-teal-300">
+        <a href="notadarshp@gmail.com" className="hover:text-teal-300">
           <MdEmail size={20} />
         </a>
-        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="hover:text-teal-300">
+        <a href="https://github.com/otAdarshP" target="_blank" rel="noopener noreferrer" className="hover:text-teal-300">
           <FaGithub size={20} />
         </a>
-        <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" className="hover:text-teal-300">
+        <a href="https://www.linkedin.com/in/adarsh-priyadarshi-ba88a4165?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank" rel="noopener noreferrer" className="hover:text-teal-300">
           <FaLinkedin size={20} />
         </a>
-        <a href="#" className="hover:text-teal-300">
+        {/* <a href="#" className="hover:text-teal-300">
           <FaPen size={20} />
-        </a>
+        </a> */}
       </div>
     </nav>
   );
